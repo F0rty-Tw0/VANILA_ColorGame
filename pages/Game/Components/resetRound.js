@@ -8,7 +8,6 @@ const getRestartModule = () => {
   const {
     hideScoreDisplay,
     setDisplayMessage,
-    setTitleBackground,
     setNewColorsButtonMessage,
   } = getDisplayModule();
 
@@ -20,7 +19,6 @@ const getRestartModule = () => {
     hideScoreDisplay();
     setNewColorsButtonMessage('New Colors');
     setDisplayMessage('');
-    setTitleBackground('#067669');
     resetCurrentTries();
     resetCircles(getNumberOfCircles());
   };

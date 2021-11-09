@@ -3,6 +3,7 @@ import { cacheDOM } from './cacheDom.js';
 
 const setColorNames = async () => {
   const { colorName } = cacheDOM();
+  colorName.textContent = "...COLOR LOADING..."
   const { getHexValueOfPickedColor } = getCirclesModule();
   const hexValue = getHexValueOfPickedColor();
   colorName.textContent = await _fetchName(hexValue);

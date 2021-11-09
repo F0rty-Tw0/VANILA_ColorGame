@@ -23,7 +23,7 @@ const getCirclesModule = () => {
   const { addScores, getCurrentScores, checkEndGame } = getScoreModule();
 
   const _checkClickedColor = (circle) => {
-    const pickedColor = _getPickedColor().replace('of ', '');
+    const pickedColor = _getPickedColor();
     const clickedColor = circle.style.background;
     if (clickedColor === pickedColor) {
       _nextCircle(clickedColor, 'You Won!');
