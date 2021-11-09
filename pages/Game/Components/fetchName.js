@@ -1,5 +1,5 @@
 import { getCirclesModule } from './circles.js';
-import { cacheDOM } from './cacheDOM.js';
+import { cacheDOM } from './cacheDom.js';
 
 const setColorNames = async () => {
   const { colorName } = cacheDOM();
