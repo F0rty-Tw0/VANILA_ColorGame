@@ -1,5 +1,5 @@
-import renderStart from './Pages/Start/start.js';
-import renderGame from './Pages/Game/index.js';
+import renderStart from './pages/Start/start.js';
+import renderGame from './pages/Game/index.js';
 
 const Router = () => {
   const router = new Navigo('/', { hash: true });
