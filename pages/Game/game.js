@@ -2,7 +2,6 @@ import { getRestartModule } from './Components/resetRound.js';
 import { getCirclesModule } from './Components/circles.js';
 import { getDifficultyModule } from './Components/difficulty.js';
 import { getSetupModule } from './Components/resetListeners.js';
-import { setColorNames } from './Components/fetchName.js';
 
 const startGame = async () => {
   const { setCirclesListeners } = getCirclesModule();
